@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Raleway+Slab:wght@300;400;500;600;700;800;900&display=swap");
+
+@import "./tailwind.css";
+@import "./variables.css";
+@import "./heading.css";
+@import "./component.css";
+@import "./override.css";
+

@@ -1,0 +1,31 @@
+@layer base {
+  h1 {
+    @apply text-[30px] sm:text-[64px] lg:text-[100px] lg:leading-[130%];
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  h2 {
+    @apply lg:text-[64px] md:text-[36px] text-[24px] lg:leading-[normal];
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  h3 {
+    @apply text-[24px] sm:text-[36px] lg:leading-[130%];
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  h4 {
+    @apply text-[18px] sm:text-[24px] leading-[130%];
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  h5 {
+    @apply sm:text-[24px] text-[18px] leading-[normal];
+    font-style: normal;
+  }
+}

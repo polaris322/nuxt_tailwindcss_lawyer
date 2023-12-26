@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-variant-numeric: lining-nums proportional-nums;
+  @apply font-raleway;
+  @apply bg-gray-light;
+  @apply text-gray-dark;
+}
+
+.plyr {
+  @apply sm:min-w-[200px] min-w-[auto] !important;
+}
+
+.plyr--video {
+  background: #000;
+  overflow: hidden;
+  @apply md:rounded-[35px] rounded-[20px];
+
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 32% !important;
+}
+
+.plyr__control--overlaid {
+  background: #262626 !important;
+  border: 2px solid white !important;
+}
+
+.ssr-carousel-dots {
+  @apply mt-[10px] sm:mt-[30px] !important;
+}
